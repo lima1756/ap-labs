@@ -1,4 +1,3 @@
-SHELL := /bin/bash # Use bash syntax
 CC       = gcc
 CFLAGS   = -Wall
 LDFLAGS  =
