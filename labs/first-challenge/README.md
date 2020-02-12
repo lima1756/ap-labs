@@ -35,23 +35,30 @@ Note that the answer must be a substring, `pwke` is a subsequence and not a subs
 
 Build Requirements
 ------------------
-```
-# Build Requirements here
-```
+
+* Have Go installed
 
 
 How to build
 ------------
+
+Once in the directory, run in console:
+
 ```
-# instructions here
+go build firstChallenge.go
 ```
 
 
 How to Run
 ----------
+
+Once in the directory, run in console:
+
 ```
-# instructions here
+./firstChallenge "YourInputString"
 ```
+
+Where **`"YourInputString"`** is the string you want to obtain the size of the longest substring
 
 
 General instructions
