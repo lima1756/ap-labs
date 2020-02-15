@@ -26,6 +26,39 @@ General instructions
 - Don't forget to handle errors properly.
 - Coding best practices implementation will be also considered.
 
+Build
+-----
+
+To build the code you only need to run
+
+```
+make build
+```
+
+Or execute directly the compiling and linking gcc comands:
+
+```
+gcc -c logger.c
+gcc -c testLogger.c 
+gcc -o testLogger logger.o testLogger.o
+```
+
+
+Run
+---
+
+To build the code you only need to run (this will also build the code):
+
+```
+make run
+```
+
+Or execute directly the compiled file:
+
+```
+./testLogger
+```
+
 How to submit your work
 =======================
 ```
