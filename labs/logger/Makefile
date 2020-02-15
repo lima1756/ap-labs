@@ -13,4 +13,12 @@ $(TARGET) : $(OBJFILES)
 clean:
 	rm -f $(OBJFILES) $(TARGET) *~
 
-include ../common.mk
+build:
+	gcc -c logger.c
+	gcc -c testLogger.c 
+	gcc -o testLogger logger.o testLogger.o
+
+run: build
+	./testLogger
+
+include ../../common.mk
