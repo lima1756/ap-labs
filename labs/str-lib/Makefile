@@ -13,4 +13,12 @@ $(TARGET) : $(OBJFILES)
 clean:
 	rm -f $(OBJFILES) $(TARGET) *~
 
-include ../common.mk
+build:
+	gcc -c strlib.c
+	gcc -c main.c
+	gcc -o main main.o strlib.o
+
+run: build
+	./main originalVeryLongString Addition Add
+
+include ../../common.mk
