@@ -15,6 +15,36 @@ General Requirements and Considerations
 - Don't forget to handle errors properly.
 - Coding best practices implementation will be also considered.
 
+Build
+-----
+
+To build the code you only need to run
+
+```
+make build
+```
+
+Or execute directly the compiling and linking gcc comands:
+
+```
+gcc -c dictionary.c
+gcc -c cross-ref.c
+gcc dictionary.o cross-ref.o -o cross-ref
+```
+
+Run
+---
+
+
+To build the code you only need to run (this will also build the code):
+
+make run
+
+Or execute directly the compiled file:
+
+./cross-ref
+
+
 Test cases
 ----------
 Your program will be tested with the following txt-based books.
