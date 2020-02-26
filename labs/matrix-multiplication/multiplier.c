@@ -140,7 +140,6 @@ long doMultiplication(struct args *data){
 long * multiply(long *matA, long *matB) {
     long *data = malloc(4000000 * sizeof(long));
     for(int i = 0; i < NUM_THREADS; i++){
-        printf("%d\n", i);
         for(int j = 0; j < NUM_THREADS; j++)
         {
             struct args *curr_args = malloc(sizeof(struct args));
