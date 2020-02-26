@@ -13,11 +13,12 @@
 package main
 
 import (
+	"flag"
 	"fmt"
 	"log"
 	"os"
 
-	"gopl.io/ch5/links"
+	"./links"
 )
 
 //!+sema
@@ -25,38 +26,60 @@ import (
 // enforce a limit of 20 concurrent requests.
 var tokens = make(chan struct{}, 20)
 
-func crawl(url string) []string {
-	fmt.Println(url)
-	tokens <- struct{}{} // acquire a token
-	list, err := links.Extract(url)
-	<-tokens // release the token
+// Reading the depth flag
+var totalDepth = flag.Int("depth", 1, "crawling depth")
 
-	if err != nil {
-		log.Print(err)
+type site struct {
+	url   string
+	depth int
+}
+
+func crawl(s site) []site {
+	fmt.Println(s.url)
+	if s.depth < *totalDepth {
+		tokens <- struct{}{} // acquire a token
+		list, err := links.Extract(s.url)
+		data := make([]site, 0)
+		for _, url := range list {
+			data = append(data, site{url: url, depth: s.depth + 1})
+		}
+		<-tokens // release the token
+
+		if err != nil {
+			log.Print(err)
+		}
+		return data
 	}
-	return list
+	return []site{}
 }
 
 //!-sema
 
 //!+
 func main() {
-	worklist := make(chan []string)
+	flag.Parse()
+	worklist := make(chan []site)
 	var n int // number of pending sends to worklist
-
+	fmt.Printf("%d", *totalDepth)
 	// Start with the command-line arguments.
 	n++
-	go func() { worklist <- os.Args[1:] }()
-
+	go func() {
+		urls := os.Args[1:]
+		data := make([]site, 0)
+		for _, url := range urls {
+			data = append(data, site{url: url, depth: 0})
+		}
+		worklist <- data
+	}()
 	// Crawl the web concurrently.
 	seen := make(map[string]bool)
 	for ; n > 0; n-- {
 		list := <-worklist
 		for _, link := range list {
-			if !seen[link] {
-				seen[link] = true
+			if !seen[link.url] {
+				seen[link.url] = true
 				n++
-				go func(link string) {
+				go func(link site) {
 					worklist <- crawl(link)
 				}(link)
 			}
