@@ -8,6 +8,7 @@
 package main
 
 import (
+	"fmt"
 	"math"
 	"math/rand"
 	"os"
@@ -105,6 +106,7 @@ func main() {
 		println("Please introduce the number of points of the figure")
 		return
 	}
+	fmt.Printf("- Generating a [%d] sides figure\n", total)
 	var path Path
 	for i := 0; i < total; i++ {
 		point := Point{
@@ -116,7 +118,15 @@ func main() {
 		copy(path[position+1:], path[position:])
 		path[position] = point
 	}
+	fmt.Printf("- Figure's vertices\n")
 	for i := range path {
-		println(path[i].X(), path[i].Y(), path[i].Angle())
+		fmt.Printf("\t - (%f), (%f)\n", path[i].X(), path[i].Y())
 	}
+	fmt.Printf("- Figure's perimeter\n")
+
+	fmt.Printf("\t-")
+	for i := 0; i < len(path)-1; i++ {
+		fmt.Printf(" %f +", path[i].Distance(path[i+1]))
+	}
+	fmt.Printf(" %f =  %f\n", path[len(path)-1].Distance(path[0]), path.Distance())
 }
