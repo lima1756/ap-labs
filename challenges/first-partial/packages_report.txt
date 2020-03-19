@@ -1,0 +1,2819 @@
+Pacman Packages Report
+----------------------
+- Installed packages 	: 573
+- Removed packages   	: 60
+- Upgraded packages  	: 263
+- Current installed  	: 513
+
+List of packages
+----------------
+- Package Name 	: dnsmasq
+	- Install date 	: 2019-05-02 15:16
+	- Last update date 	: 2019-07-08 15:08
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: zchunk
+	- Install date 	: 2019-07-18 11:11
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:21
+- Package Name 	: libraw1394
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: pinentry
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: reiserfsprogs
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: leveldb
+	- Install date 	: 2019-03-29 15:12
+	- Last update date 	: 2019-07-01 15:39
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: dhcpcd
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-06-24 16:03
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: libvirt-glib
+	- Install date 	: 2019-05-17 16:07
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: at-spi2-atk
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-09-13 10:56
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: libvirt-python
+	- Install date 	: 2019-05-17 16:07
+	- Last update date 	: 2019-06-24 16:03
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: mock-core-configs
+	- Install date 	: 2019-07-17 16:01
+	- Last update date 	: 2019-09-17 12:39
+	- How many updates 	: 4
+	- Removal date 	: NOT DELETED
+- Package Name 	: zsh
+	- Install date 	: 2019-03-22 15:56
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libseccomp
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-06-18 12:25
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: libcomps
+	- Install date 	: 2019-07-18 11:08
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:21
+- Package Name 	: libnftnl
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-09-13 10:56
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: ca-certificates-utils
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: net-tools
+	- Install date 	: 2019-08-01 15:32
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libxext
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-paramiko
+	- Install date 	: 2019-07-18 16:24
+	- Last update date 	: 2019-07-30 11:42
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: python2-setuptools
+	- Install date 	: 2019-04-03 11:31
+	- Last update date 	: 2019-08-22 16:00
+	- How many updates 	: 3
+	- Removal date 	: NOT DELETED
+- Package Name 	: oniguruma
+	- Install date 	: 2019-08-14 09:10
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: adobe-source-code-pro-fonts
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: dconf
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-09-13 10:56
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: libssh
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: 2019-07-01 15:39
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: vagrant
+	- Install date 	: 2019-07-15 11:57
+	- Last update date 	: 2019-08-26 10:17
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: libvirt
+	- Install date 	: 2019-03-29 15:12
+	- Last update date 	: 2019-07-22 15:35
+	- How many updates 	: 4
+	- Removal date 	: NOT DELETED
+- Package Name 	: yajl
+	- Install date 	: 2019-03-22 16:08
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: zita-alsa-pcmi
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: ruby-haste
+	- Install date 	: 2019-07-23 15:07
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-23 15:08
+- Package Name 	: libomxil-bellagio
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: rubygems
+	- Install date 	: 2019-03-28 14:31
+	- Last update date 	: 2019-08-26 10:17
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: firefox
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: 2019-09-09 16:43
+	- How many updates 	: 7
+	- Removal date 	: NOT DELETED
+- Package Name 	: attr
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: bash
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-09-02 12:41
+	- How many updates 	: 3
+	- Removal date 	: NOT DELETED
+- Package Name 	: popt
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libgusb
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libxslt
+	- Install date 	: 2019-03-29 15:12
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: lcms2
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-07-18 16:16
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-lxml
+	- Install date 	: 2019-07-18 11:10
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:22
+- Package Name 	: wayland-protocols
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-07-29 22:24
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: nettle
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-07-08 15:08
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: graphite
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-09-02 12:42
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: nspr
+	- Install date 	: 2019-03-29 15:12
+	- Last update date 	: 2019-08-26 10:17
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: bzip2
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-07-18 16:16
+	- How many updates 	: 4
+	- Removal date 	: NOT DELETED
+- Package Name 	: libutil-linux
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-07-01 15:39
+	- How many updates 	: 3
+	- Removal date 	: NOT DELETED
+- Package Name 	: adwaita-icon-theme
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-09-13 10:56
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: vid.stab
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: speexdsp
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: 2019-06-18 12:25
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: openjpeg2
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: l-smash
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libpciaccess
+	- Install date 	: 2019-03-29 15:12
+	- Last update date 	: 2019-07-18 16:16
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: libxcursor
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: smem
+	- Install date 	: 2019-07-19 14:36
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-pep517
+	- Install date 	: 2019-05-14 11:23
+	- Last update date 	: 2019-08-23 16:57
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: libnetfilter_conntrack
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-packaging
+	- Install date 	: 2019-03-28 18:37
+	- Last update date 	: 2019-08-12 14:06
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: libmodulemd
+	- Install date 	: 2019-07-18 11:11
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:21
+- Package Name 	: gnutls
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-07-29 22:24
+	- How many updates 	: 5
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-tabulate
+	- Install date 	: 2019-07-08 14:30
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:22
+- Package Name 	: xkeyboard-config
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-06-18 12:25
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: mdadm
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-04-22 11:33
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: xdg-utils
+	- Install date 	: 2019-05-23 11:43
+	- Last update date 	: 2019-09-02 12:42
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: libffi
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: cppunit
+	- Install date 	: 2019-07-18 11:10
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:22
+- Package Name 	: python-beaker
+	- Install date 	: 2019-07-18 11:10
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:22
+- Package Name 	: xorg-xhost
+	- Install date 	: 2019-07-02 15:19
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: tar
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: gperftools
+	- Install date 	: 2019-03-29 15:12
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: tdb
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libxinerama
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: openssh
+	- Install date 	: 2019-03-22 15:33
+	- Last update date 	: 2019-08-01 15:31
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: openssl
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-09-13 10:56
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: xorgproto
+	- Install date 	: 2019-03-29 15:12
+	- Last update date 	: 2019-06-24 16:03
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: vde2
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: bash-completion
+	- Install date 	: 2019-07-17 16:03
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libidn2
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-06-18 12:25
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-urllib3
+	- Install date 	: 2019-03-28 18:37
+	- Last update date 	: 2019-05-28 03:40
+	- How many updates 	: 3
+	- Removal date 	: NOT DELETED
+- Package Name 	: device-mapper
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-09-09 16:43
+	- How many updates 	: 6
+	- Removal date 	: NOT DELETED
+- Package Name 	: libunwind
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libssh2
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-05-26 09:56
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: tigervnc
+	- Install date 	: 2019-05-23 11:43
+	- Last update date 	: 2019-07-08 15:09
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: task
+	- Install date 	: 2019-03-26 12:12
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: archlinux-keyring
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-09-02 12:41
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: db
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: glib-networking
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-09-09 16:43
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: libnl
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: gc
+	- Install date 	: 2019-03-22 16:08
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libglvnd
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: go
+	- Install date 	: 2019-03-22 15:55
+	- Last update date 	: 2019-09-09 16:44
+	- How many updates 	: 9
+	- Removal date 	: NOT DELETED
+- Package Name 	: zita-resampler
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libdaemon
+	- Install date 	: 2019-03-29 15:12
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-sphinxcontrib-jsmath
+	- Install date 	: 2019-07-18 11:06
+	- Last update date 	: 2019-08-22 16:00
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: libmnl
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: jq
+	- Install date 	: 2019-08-14 09:10
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libsm
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libmpc
+	- Install date 	: 2019-03-22 16:08
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: gpgme
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-06-18 12:25
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: libuv
+	- Install date 	: 2019-07-18 11:06
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:22
+- Package Name 	: m4
+	- Install date 	: 2019-03-22 16:08
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libva
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: 2019-07-05 17:18
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: texinfo
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libxi
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-06-24 16:03
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: libxt
+	- Install date 	: 2019-05-23 11:43
+	- Last update date 	: 2019-06-24 16:03
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: libxv
+	- Install date 	: 2019-05-17 16:07
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: rest
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-chardet
+	- Install date 	: 2019-03-28 18:37
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: seabios
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libxcomposite
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: ruby-faraday
+	- Install date 	: 2019-07-23 15:07
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: glib2-docs
+	- Install date 	: 2019-07-18 11:10
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:22
+- Package Name 	: vi
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libvdpau
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: 2019-09-02 12:42
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: xz
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: spice-gtk
+	- Install date 	: 2019-05-17 16:07
+	- Last update date 	: 2019-06-24 16:03
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-msrest
+	- Install date 	: 2019-07-08 14:31
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libxml2
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-09-17 12:39
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: libgovirt
+	- Install date 	: 2019-05-17 16:07
+	- Last update date 	: 2019-06-24 16:03
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: xcb-util
+	- Install date 	: 2019-05-23 11:43
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: numactl
+	- Install date 	: 2019-03-29 15:12
+	- Last update date 	: 2019-09-02 12:42
+	- How many updates 	: 3
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-pytoml
+	- Install date 	: 2019-05-14 11:23
+	- Last update date 	: 2019-07-22 15:35
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: libosinfo
+	- Install date 	: 2019-05-17 16:07
+	- Last update date 	: 2019-09-02 12:42
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: alsa-lib
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-08-22 16:00
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: libepoxy
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: oath-toolkit
+	- Install date 	: 2019-03-29 15:12
+	- Last update date 	: 2019-04-08 13:34
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: libcap-ng
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libsamplerate
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: usbredir
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-progress
+	- Install date 	: 2019-05-14 11:23
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libtasn1
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-07-25 09:25
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: libmodplug
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: iptables
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-06-24 16:03
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: systemd-sysvcompat
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-09-09 16:44
+	- How many updates 	: 14
+	- Removal date 	: NOT DELETED
+- Package Name 	: libyaml
+	- Install date 	: 2019-03-28 14:31
+	- Last update date 	: 2019-07-18 16:16
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: yaourt
+	- Install date 	: 2019-03-22 16:11
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libxfixes
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libwebp
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: 2019-07-15 11:04
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: libxtst
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: gcc
+	- Install date 	: 2019-03-22 16:08
+	- Last update date 	: 2019-07-01 15:39
+	- How many updates 	: 3
+	- Removal date 	: NOT DELETED
+- Package Name 	: gst-plugins-base-libs
+	- Install date 	: 2019-05-17 16:07
+	- Last update date 	: 2019-06-18 12:25
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: gdb
+	- Install date 	: 2019-08-08 14:43
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: rpm-org
+	- Install date 	: 2019-07-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:21
+- Package Name 	: gtk-vnc
+	- Install date 	: 2019-05-17 16:07
+	- Last update date 	: 2019-08-08 16:49
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-jinja
+	- Install date 	: 2019-07-17 16:00
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: git
+	- Install date 	: 2019-03-22 15:33
+	- Last update date 	: 2019-08-22 16:00
+	- How many updates 	: 3
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-html5lib
+	- Install date 	: 2019-05-14 11:23
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: kubectl
+	- Install date 	: 2019-03-22 16:25
+	- Last update date 	: 2019-09-02 12:42
+	- How many updates 	: 9
+	- Removal date 	: NOT DELETED
+- Package Name 	: hicolor-icon-theme
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python2-six
+	- Install date 	: 2019-04-03 11:31
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: glu
+	- Install date 	: 2019-05-23 11:43
+	- Last update date 	: 2019-07-29 22:24
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: gmp
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libnghttp2
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-08-26 10:17
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: bison
+	- Install date 	: 2019-03-22 16:08
+	- Last update date 	: 2019-08-12 14:06
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: gpm
+	- Install date 	: 2019-07-24 11:40
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: linux-api-headers
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-06-18 12:25
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: gsm
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: binutils
+	- Install date 	: 2019-03-22 16:08
+	- Last update date 	: 2019-06-18 12:25
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-pyopenssl
+	- Install date 	: 2019-07-08 14:30
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: argon2
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-07-05 17:18
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: socat
+	- Install date 	: 2019-04-01 16:40
+	- Last update date 	: 2019-05-06 11:04
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: mesa
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-09-17 12:39
+	- How many updates 	: 11
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-sphinxcontrib-devhelp
+	- Install date 	: 2019-07-18 11:06
+	- Last update date 	: 2019-08-22 16:00
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-secretstorage
+	- Install date 	: 2019-07-08 14:30
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: sudo
+	- Install date 	: 2019-03-22 15:37
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: nss
+	- Install date 	: 2019-03-29 15:12
+	- Last update date 	: 2019-09-09 16:43
+	- How many updates 	: 4
+	- Removal date 	: NOT DELETED
+- Package Name 	: ntp
+	- Install date 	: 2019-04-12 15:49
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: ebtables
+	- Install date 	: 2019-05-02 15:16
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: emacs-nox
+	- Install date 	: 2019-03-22 15:33
+	- Last update date 	: 2019-05-26 09:56
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: virt-viewer
+	- Install date 	: 2019-05-17 16:07
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: glusterfs
+	- Install date 	: 2019-03-29 15:12
+	- Last update date 	: 2019-08-12 14:06
+	- How many updates 	: 4
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-isodate
+	- Install date 	: 2019-07-08 14:31
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: procps-ng
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libid3tag
+	- Install date 	: 2019-05-23 11:43
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libnfs
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: jack
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: ovmf
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-07-22 15:35
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: pixman
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: ceph-libs
+	- Install date 	: 2019-03-29 15:12
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-babel
+	- Install date 	: 2019-07-18 11:06
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: glib2
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-09-09 16:43
+	- How many updates 	: 7
+	- Removal date 	: NOT DELETED
+- Package Name 	: glibc
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-07-23 20:18
+	- How many updates 	: 5
+	- Removal date 	: NOT DELETED
+- Package Name 	: pcre
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libthai
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: x264
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: x265
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: 2019-08-05 10:53
+	- How many updates 	: 3
+	- Removal date 	: NOT DELETED
+- Package Name 	: glide
+	- Install date 	: 2019-08-01 15:32
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libnsl
+	- Install date 	: 2019-03-28 15:19
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: perl-timedate
+	- Install date 	: 2019-03-22 15:33
+	- Last update date 	: 2019-06-18 12:25
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: parted
+	- Install date 	: 2019-03-29 15:12
+	- Last update date 	: 2019-05-02 14:54
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-gobject
+	- Install date 	: 2019-05-17 16:07
+	- Last update date 	: 2019-09-10 11:00
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: ldns
+	- Install date 	: 2019-03-22 15:33
+	- Last update date 	: 2019-08-01 15:31
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: ruby-erubis
+	- Install date 	: 2019-03-28 14:31
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-09-02 13:29
+- Package Name 	: shaderc
+	- Install date 	: 2019-08-12 14:06
+	- Last update date 	: 2019-09-13 10:56
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: desktop-file-utils
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-07-29 22:24
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: libtirpc
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: librepo
+	- Install date 	: 2019-07-18 11:11
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:21
+- Package Name 	: sshuttle
+	- Install date 	: 2019-08-01 15:32
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-nose
+	- Install date 	: 2019-07-18 11:10
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:22
+- Package Name 	: libgcrypt
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-09-02 12:41
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: speex
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libusb
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libpipeline
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python2-appdirs
+	- Install date 	: 2019-04-03 11:31
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: freetype2
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-07-02 15:33
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: acl
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libplacebo
+	- Install date 	: 2019-08-12 14:06
+	- Last update date 	: 2019-09-13 10:56
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: package-query
+	- Install date 	: 2019-03-22 16:10
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: file
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-06-18 12:25
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: wget
+	- Install date 	: 2019-03-22 16:08
+	- Last update date 	: 2019-07-08 15:09
+	- How many updates 	: 3
+	- Removal date 	: NOT DELETED
+- Package Name 	: libtool
+	- Install date 	: 2019-03-22 15:33
+	- Last update date 	: 2019-07-23 20:18
+	- How many updates 	: 3
+	- Removal date 	: NOT DELETED
+- Package Name 	: libsodium
+	- Install date 	: 2019-07-18 16:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-docutils
+	- Install date 	: 2019-07-18 11:06
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-pytz
+	- Install date 	: 2019-07-08 14:30
+	- Last update date 	: 2019-08-05 10:53
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-azure-storage
+	- Install date 	: 2019-07-08 14:30
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: aom
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: 2019-07-29 22:24
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: guile
+	- Install date 	: 2019-03-22 16:08
+	- Last update date 	: 2019-07-12 14:19
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: libnfnetlink
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: atk
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-09-13 10:56
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: imlib2
+	- Install date 	: 2019-05-23 11:43
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libgpg-error
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-09-17 12:39
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: virglrenderer
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: xvidcore
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: qemu
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-08-22 16:00
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: xbitmaps
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-requests
+	- Install date 	: 2019-03-28 18:37
+	- Last update date 	: 2019-05-17 16:04
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: librsvg
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-09-13 10:56
+	- How many updates 	: 3
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-cffi
+	- Install date 	: 2019-07-08 14:30
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: gdbm
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-cairo
+	- Install date 	: 2019-07-02 15:22
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: audit
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-06-24 16:03
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-snowballstemmer
+	- Install date 	: 2019-07-18 11:06
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: json-c
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libaio
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-04-22 11:33
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: arandr
+	- Install date 	: 2019-07-02 15:22
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-sshtunnel
+	- Install date 	: 2019-07-08 14:30
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:22
+- Package Name 	: osinfo-db
+	- Install date 	: 2019-05-17 16:07
+	- Last update date 	: 2019-09-02 12:42
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: startup-notification
+	- Install date 	: 2019-05-23 11:43
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: iana-etc
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-09-02 12:41
+	- How many updates 	: 7
+	- Removal date 	: NOT DELETED
+- Package Name 	: libass
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: dav1d
+	- Install date 	: 2019-08-08 16:49
+	- Last update date 	: 2019-08-12 14:06
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: spirv-tools
+	- Install date 	: 2019-08-12 14:06
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-bcrypt
+	- Install date 	: 2019-07-18 16:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libevent
+	- Install date 	: 2019-03-22 15:33
+	- Last update date 	: 2019-09-02 12:42
+	- How many updates 	: 3
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-six
+	- Install date 	: 2019-03-28 18:37
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: orc
+	- Install date 	: 2019-05-17 16:07
+	- Last update date 	: 2019-09-09 16:44
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: dbus-glib
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: rpcbind
+	- Install date 	: 2019-03-29 15:12
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: sqlite
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-07-15 11:04
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: vulkan-icd-loader
+	- Install date 	: 2019-08-12 14:06
+	- Last update date 	: 2019-09-02 12:42
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-pyjwt
+	- Install date 	: 2019-07-08 14:31
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: vim
+	- Install date 	: 2019-07-24 11:40
+	- Last update date 	: 2019-09-09 16:44
+	- How many updates 	: 3
+	- Removal date 	: NOT DELETED
+- Package Name 	: lm_sensors
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-cryptography
+	- Install date 	: 2019-07-08 14:30
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: iso-codes
+	- Install date 	: 2019-05-17 16:07
+	- Last update date 	: 2019-07-12 14:18
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-asn1crypto
+	- Install date 	: 2019-07-08 14:30
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-pynacl
+	- Install date 	: 2019-07-18 16:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: opus
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: check
+	- Install date 	: 2019-07-18 11:07
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:22
+- Package Name 	: ruby-xdg
+	- Install date 	: 2019-03-28 14:31
+	- Last update date 	: 2019-06-18 12:29
+	- How many updates 	: 1
+	- Removal date 	: 2019-09-02 13:29
+- Package Name 	: brotli
+	- Install date 	: 2019-09-13 10:56
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libvorbis
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-jmespath
+	- Install date 	: 2019-07-08 14:30
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:22
+- Package Name 	: zlib
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: colord
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-pycparser
+	- Install date 	: 2019-07-08 14:30
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libogg
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-09-02 12:42
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: grep
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: nano
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-08-26 15:35
+	- How many updates 	: 6
+	- Removal date 	: NOT DELETED
+- Package Name 	: libpcap
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-msgpack
+	- Install date 	: 2019-05-14 11:23
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: xorg-luit
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libarchive
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-06-18 12:25
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: libtiff
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: nload
+	- Install date 	: 2019-03-28 11:42
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libldap
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-08-26 10:17
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-pygments
+	- Install date 	: 2019-07-18 11:06
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: vim-runtime
+	- Install date 	: 2019-07-24 11:40
+	- Last update date 	: 2019-09-09 16:44
+	- How many updates 	: 3
+	- Removal date 	: NOT DELETED
+- Package Name 	: libsecret
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-09-09 16:44
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: rhash
+	- Install date 	: 2019-07-18 11:06
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:22
+- Package Name 	: python-sphinxcontrib-serializinghtml
+	- Install date 	: 2019-07-18 11:06
+	- Last update date 	: 2019-08-22 16:00
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: libxfont2
+	- Install date 	: 2019-05-23 11:43
+	- Last update date 	: 2019-09-17 12:39
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: vte3
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-09-13 10:56
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: less
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-06-18 12:25
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: glslang
+	- Install date 	: 2019-08-12 14:06
+	- Last update date 	: 2019-09-13 10:56
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: gtk-update-icon-cache
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-09-09 16:43
+	- How many updates 	: 3
+	- Removal date 	: NOT DELETED
+- Package Name 	: libvpx
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: 2019-07-18 16:16
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: zstd
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-08-12 14:06
+	- How many updates 	: 3
+	- Removal date 	: NOT DELETED
+- Package Name 	: e2fsprogs
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-07-16 16:22
+	- How many updates 	: 3
+	- Removal date 	: NOT DELETED
+- Package Name 	: ruby
+	- Install date 	: 2019-03-28 14:31
+	- Last update date 	: 2019-09-02 12:42
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: mkinitcpio
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-05-26 09:56
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-markupsafe
+	- Install date 	: 2019-07-17 16:00
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-mako
+	- Install date 	: 2019-07-18 11:10
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:22
+- Package Name 	: linux-firmware
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-08-22 16:00
+	- How many updates 	: 7
+	- Removal date 	: NOT DELETED
+- Package Name 	: ruby-json
+	- Install date 	: 2019-07-23 15:07
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: diffutils
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: cni-git
+	- Install date 	: 2019-07-15 17:17
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-15 17:18
+- Package Name 	: runc
+	- Install date 	: 2019-03-22 15:33
+	- Last update date 	: 2019-08-16 11:28
+	- How many updates 	: 3
+	- Removal date 	: NOT DELETED
+- Package Name 	: elfutils
+	- Install date 	: 2019-07-17 16:03
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:21
+- Package Name 	: icu
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-04-26 16:56
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: libiscsi
+	- Install date 	: 2019-03-29 15:12
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: systemd
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-09-09 16:43
+	- How many updates 	: 14
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-adal
+	- Install date 	: 2019-07-08 14:31
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libxxf86vm
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: xorg-xauth
+	- Install date 	: 2019-05-23 11:43
+	- Last update date 	: 2019-07-12 14:19
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: libsasl
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-flask
+	- Install date 	: 2019-07-18 11:11
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:22
+- Package Name 	: psmisc
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: dnssec-anchors
+	- Install date 	: 2019-03-22 15:33
+	- Last update date 	: 2019-07-05 17:18
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: htop
+	- Install date 	: 2019-03-22 16:02
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libutempter
+	- Install date 	: 2019-03-22 15:33
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libxrender
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: automake
+	- Install date 	: 2019-03-22 16:08
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-setuptools
+	- Install date 	: 2019-03-28 18:37
+	- Last update date 	: 2019-08-22 16:00
+	- How many updates 	: 3
+	- Removal date 	: NOT DELETED
+- Package Name 	: pam
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python2-virtualenv
+	- Install date 	: 2019-04-03 11:31
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: tzdata
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-09-17 12:39
+	- How many updates 	: 3
+	- Removal date 	: NOT DELETED
+- Package Name 	: pacman
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libgudev
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-08-05 10:53
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: ncurses
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: xorg-xset
+	- Install date 	: 2019-05-23 11:43
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: meson
+	- Install date 	: 2019-07-18 11:10
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:22
+- Package Name 	: libbsd
+	- Install date 	: 2019-04-16 23:32
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libice
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-07-15 11:04
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: liburcu
+	- Install date 	: 2019-03-29 15:12
+	- Last update date 	: 2019-05-21 14:39
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: perl-error
+	- Install date 	: 2019-03-22 15:33
+	- Last update date 	: 2019-08-26 10:17
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: gobject-introspection
+	- Install date 	: 2019-07-18 11:10
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:22
+- Package Name 	: cairo
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-08-05 10:53
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: xfsprogs
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-04-08 13:34
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: ruby-rdoc
+	- Install date 	: 2019-03-28 14:31
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-09-02 13:29
+- Package Name 	: filesystem
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-05-28 00:54
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: krb5
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-06-18 12:25
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: libsolv
+	- Install date 	: 2019-07-18 11:12
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:21
+- Package Name 	: python-oauthlib
+	- Install date 	: 2019-07-08 14:31
+	- Last update date 	: 2019-08-14 09:53
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: docker
+	- Install date 	: 2019-03-22 15:33
+	- Last update date 	: 2019-09-09 16:43
+	- How many updates 	: 8
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-gpgme
+	- Install date 	: 2019-07-18 11:06
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:21
+- Package Name 	: bridge-utils
+	- Install date 	: 2019-03-22 15:33
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: swig
+	- Install date 	: 2019-07-18 11:10
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:22
+- Package Name 	: libiec61883
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libsoup
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-09-13 10:56
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: rsync
+	- Install date 	: 2019-03-22 15:40
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libsoxr
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: mailcap
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: thin-provisioning-tools
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-06-18 12:26
+	- How many updates 	: 3
+	- Removal date 	: NOT DELETED
+- Package Name 	: jasper
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libpng
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: gtk-doc
+	- Install date 	: 2019-07-18 11:10
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:22
+- Package Name 	: perl-locale-gettext
+	- Install date 	: 2019-07-17 16:03
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:22
+- Package Name 	: perl
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-06-24 16:03
+	- How many updates 	: 3
+	- Removal date 	: NOT DELETED
+- Package Name 	: json-glib
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: netctl
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libpsl
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-06-18 12:25
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-retrying
+	- Install date 	: 2019-05-14 11:23
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libxshmfence
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: shared-mime-info
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-09-17 12:39
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: libdatrie
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: sound-theme-freedesktop
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: gzip
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libsndfile
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-virtualenv
+	- Install date 	: 2019-03-29 15:31
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: man-db
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-09-02 12:42
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: xorg-xrandr
+	- Install date 	: 2019-07-02 15:22
+	- Last update date 	: 2019-08-14 09:53
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-entrypoints
+	- Install date 	: 2019-07-08 14:30
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: gdb-common
+	- Install date 	: 2019-08-08 14:43
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-azure
+	- Install date 	: 2019-07-09 18:09
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: ansible-lint
+	- Install date 	: 2019-07-18 16:26
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: openbox
+	- Install date 	: 2019-05-23 11:43
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: opencore-amr
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: findutils
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-09-02 12:41
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: tmuxinator
+	- Install date 	: 2019-03-28 14:32
+	- Last update date 	: 2019-06-18 12:29
+	- How many updates 	: 3
+	- Removal date 	: 2019-09-02 13:29
+- Package Name 	: at-spi2-core
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-09-13 10:56
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: expat
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-07-01 15:39
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-wheel
+	- Install date 	: 2019-07-08 14:30
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:22
+- Package Name 	: libcacard
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-08-22 16:00
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: fontconfig
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: readline
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: stress
+	- Install date 	: 2019-03-25 18:53
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: npth
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: gnupg
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-07-22 15:35
+	- How many updates 	: 4
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-ruamel-yaml
+	- Install date 	: 2019-07-18 16:26
+	- Last update date 	: 2019-08-22 16:00
+	- How many updates 	: 4
+	- Removal date 	: NOT DELETED
+- Package Name 	: libcroco
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-04-08 13:34
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-lockfile
+	- Install date 	: 2019-05-14 11:23
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: make
+	- Install date 	: 2019-03-22 16:08
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: docbook-xml
+	- Install date 	: 2019-07-18 11:10
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:22
+- Package Name 	: vte-common
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-09-13 10:56
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: xorg-xsetroot
+	- Install date 	: 2019-05-23 11:43
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: docbook-xsl
+	- Install date 	: 2019-07-18 11:10
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:22
+- Package Name 	: patch
+	- Install date 	: 2019-03-22 16:08
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libcap
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-04-22 11:33
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-pyparsing
+	- Install date 	: 2019-03-28 18:37
+	- Last update date 	: 2019-07-30 11:42
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-msrestazure
+	- Install date 	: 2019-07-08 14:31
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-distro
+	- Install date 	: 2019-05-14 11:23
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: perl-mailtools
+	- Install date 	: 2019-03-22 15:33
+	- Last update date 	: 2019-06-18 12:25
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: libx11
+	- Install date 	: 2019-03-29 15:12
+	- Last update date 	: 2019-06-18 12:25
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: distribution-gpg-keys
+	- Install date 	: 2019-07-17 16:01
+	- Last update date 	: 2019-08-22 16:01
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: python
+	- Install date 	: 2019-03-28 15:19
+	- Last update date 	: 2019-07-30 11:42
+	- How many updates 	: 3
+	- Removal date 	: NOT DELETED
+- Package Name 	: gettext
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-09-17 12:39
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: libpulse
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-09-17 12:39
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-appdirs
+	- Install date 	: 2019-03-28 18:37
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: xterm
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: 2019-07-29 22:24
+	- How many updates 	: 3
+	- Removal date 	: NOT DELETED
+- Package Name 	: fuse-common
+	- Install date 	: 2019-03-29 15:12
+	- Last update date 	: 2019-09-17 12:39
+	- How many updates 	: 4
+	- Removal date 	: NOT DELETED
+- Package Name 	: iputils
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: cryptsetup
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-09-09 16:43
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: mock
+	- Install date 	: 2019-07-17 16:01
+	- Last update date 	: 2019-09-13 10:57
+	- How many updates 	: 3
+	- Removal date 	: NOT DELETED
+- Package Name 	: gobject-introspection-runtime
+	- Install date 	: 2019-05-17 16:07
+	- Last update date 	: 2019-09-10 11:00
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: openresolv
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-07-23 20:18
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: kubernetes-helm
+	- Install date 	: 2019-04-01 16:50
+	- Last update date 	: 2019-08-01 15:34
+	- How many updates 	: 4
+	- Removal date 	: NOT DELETED
+- Package Name 	: pacman-mirrorlist
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-08-22 16:00
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: libxkbcommon
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: help2man
+	- Install date 	: 2019-07-17 16:03
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:22
+- Package Name 	: pciutils
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: snappy
+	- Install date 	: 2019-03-29 15:12
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: ruby-thor
+	- Install date 	: 2019-03-28 14:31
+	- Last update date 	: 2019-08-05 10:53
+	- How many updates 	: 1
+	- Removal date 	: 2019-09-02 13:29
+- Package Name 	: netcf
+	- Install date 	: 2019-03-29 15:12
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: p11-kit
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-09-17 12:39
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: xorg-xkbcomp
+	- Install date 	: 2019-05-23 11:43
+	- Last update date 	: 2019-09-17 12:39
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: mkinitcpio-busybox
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-sphinx
+	- Install date 	: 2019-07-18 11:06
+	- Last update date 	: 2019-08-22 16:00
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: avahi
+	- Install date 	: 2019-03-29 15:12
+	- Last update date 	: 2019-04-29 17:00
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: ffmpeg
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: 2019-09-17 12:39
+	- How many updates 	: 7
+	- Removal date 	: NOT DELETED
+- Package Name 	: gtk3
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-09-09 16:43
+	- How many updates 	: 3
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-sphinxcontrib-htmlhelp
+	- Install date 	: 2019-07-18 11:06
+	- Last update date 	: 2019-08-22 16:00
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: logrotate
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-09-09 16:44
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: xcb-proto
+	- Install date 	: 2019-03-29 15:12
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libxau
+	- Install date 	: 2019-03-29 15:12
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libxaw
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: gdk-pixbuf2
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-09-09 16:43
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: libxcb
+	- Install date 	: 2019-03-29 15:12
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: pkgconf
+	- Install date 	: 2019-03-22 16:08
+	- Last update date 	: 2019-09-09 16:44
+	- How many updates 	: 3
+	- Removal date 	: NOT DELETED
+- Package Name 	: libxft
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: hastebin
+	- Install date 	: 2019-03-28 18:37
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: ruby-multipart-post
+	- Install date 	: 2019-07-23 15:07
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-pyxattr
+	- Install date 	: 2019-07-18 11:11
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:22
+- Package Name 	: python-applicationinsights
+	- Install date 	: 2019-07-08 14:30
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:22
+- Package Name 	: boost-libs
+	- Install date 	: 2019-03-29 15:12
+	- Last update date 	: 2019-04-08 13:34
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-more-itertools
+	- Install date 	: 2019-09-02 12:42
+	- Last update date 	: 2019-09-09 16:44
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: autoconf
+	- Install date 	: 2019-03-22 16:08
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libxmu
+	- Install date 	: 2019-05-23 11:43
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-itsdangerous
+	- Install date 	: 2019-07-18 11:11
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:22
+- Package Name 	: openbsd-netcat
+	- Install date 	: 2019-04-16 23:32
+	- Last update date 	: 2019-04-26 16:56
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: curl
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-09-17 12:39
+	- How many updates 	: 5
+	- Removal date 	: NOT DELETED
+- Package Name 	: libxpm
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: cmake
+	- Install date 	: 2019-07-18 11:06
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:22
+- Package Name 	: python-sphinxcontrib-applehelp
+	- Install date 	: 2019-07-18 11:06
+	- Last update date 	: 2019-08-22 16:00
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: llvm-libs
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-08-26 10:17
+	- How many updates 	: 3
+	- Removal date 	: NOT DELETED
+- Package Name 	: flac
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-08-08 16:49
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: dbus
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-08-22 16:00
+	- How many updates 	: 3
+	- Removal date 	: NOT DELETED
+- Package Name 	: ansible
+	- Install date 	: 2019-07-18 16:24
+	- Last update date 	: 2019-09-17 12:39
+	- How many updates 	: 3
+	- Removal date 	: NOT DELETED
+- Package Name 	: libunistring
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: flex
+	- Install date 	: 2019-03-22 16:08
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: mozilla-common
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libproxy
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-06-18 12:25
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-imagesize
+	- Install date 	: 2019-07-18 11:06
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-cachecontrol
+	- Install date 	: 2019-05-14 11:23
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libxkbfile
+	- Install date 	: 2019-05-23 11:43
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-attrs
+	- Install date 	: 2019-08-12 14:06
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libavc1394
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: sdl2
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-07-29 22:24
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: pango
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-09-09 16:43
+	- How many updates 	: 5
+	- Removal date 	: NOT DELETED
+- Package Name 	: ca-certificates
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-importlib-metadata
+	- Install date 	: 2019-08-23 16:57
+	- Last update date 	: 2019-09-13 10:56
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: usbutils
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-09-09 16:44
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: dnf
+	- Install date 	: 2019-07-18 11:16
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:21
+- Package Name 	: python-idna
+	- Install date 	: 2019-03-28 18:37
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: fltk
+	- Install date 	: 2019-05-23 11:43
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: v4l-utils
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: 2019-09-09 16:43
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: ca-certificates-mozilla
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-09-09 16:43
+	- How many updates 	: 4
+	- Removal date 	: NOT DELETED
+- Package Name 	: libatomic_ops
+	- Install date 	: 2019-03-22 16:08
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libjpeg-turbo
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-09-09 16:43
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: kbd
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-09-02 12:42
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: libassuan
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: google-cloud-sdk
+	- Install date 	: 2019-04-16 23:26
+	- Last update date 	: 2019-09-09 16:50
+	- How many updates 	: 16
+	- Removal date 	: NOT DELETED
+- Package Name 	: which
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-webencodings
+	- Install date 	: 2019-05-14 11:23
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libxdmcp
+	- Install date 	: 2019-03-29 15:12
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-jeepney
+	- Install date 	: 2019-07-08 14:30
+	- Last update date 	: 2019-08-16 11:28
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: python2-packaging
+	- Install date 	: 2019-04-03 11:31
+	- Last update date 	: 2019-08-12 14:06
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: containerd
+	- Install date 	: 2019-03-22 15:33
+	- Last update date 	: 2019-09-09 16:43
+	- How many updates 	: 5
+	- Removal date 	: NOT DELETED
+- Package Name 	: iproute2
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-07-12 14:19
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-zipp
+	- Install date 	: 2019-08-23 16:57
+	- Last update date 	: 2019-09-02 12:42
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: libdnf
+	- Install date 	: 2019-07-18 11:15
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:21
+- Package Name 	: xmlsec
+	- Install date 	: 2019-03-29 15:12
+	- Last update date 	: 2019-04-24 11:42
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-argcomplete
+	- Install date 	: 2019-07-08 14:30
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:22
+- Package Name 	: mpfr
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libdrm
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-07-05 17:18
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: libibus
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-08-26 10:17
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: kmod
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: fribidi
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libbluray
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: 2019-06-18 12:25
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: python2-attrs
+	- Install date 	: 2019-08-12 14:06
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: util-linux
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-07-01 15:39
+	- How many updates 	: 3
+	- Removal date 	: NOT DELETED
+- Package Name 	: js52
+	- Install date 	: 2019-03-29 15:12
+	- Last update date 	: 2019-06-24 16:03
+	- How many updates 	: 1
+	- Removal date 	: 2019-07-18 16:22
+- Package Name 	: coreutils
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: js60
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-09-09 16:43
+	- How many updates 	: 4
+	- Removal date 	: NOT DELETED
+- Package Name 	: polkit
+	- Install date 	: 2019-03-29 15:12
+	- Last update date 	: 2019-06-18 12:25
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-sphinx-alabaster-theme
+	- Install date 	: 2019-07-18 11:06
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libksba
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: lame
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: harfbuzz
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-08-23 16:57
+	- How many updates 	: 6
+	- Removal date 	: NOT DELETED
+- Package Name 	: libcanberra
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-yaml
+	- Install date 	: 2019-07-18 16:24
+	- Last update date 	: 2019-08-22 16:00
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: ethtool
+	- Install date 	: 2019-07-15 17:17
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-15 17:18
+- Package Name 	: groff
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-04-22 11:33
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: augeas
+	- Install date 	: 2019-03-29 15:12
+	- Last update date 	: 2019-04-26 16:56
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: cantarell-fonts
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: pambase
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-anytree
+	- Install date 	: 2019-07-18 11:10
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:22
+- Package Name 	: python-werkzeug
+	- Install date 	: 2019-07-18 11:11
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:22
+- Package Name 	: phodav
+	- Install date 	: 2019-05-17 16:07
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: gstreamer
+	- Install date 	: 2019-05-17 16:07
+	- Last update date 	: 2019-06-18 12:25
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: tmux
+	- Install date 	: 2019-03-22 15:33
+	- Last update date 	: 2019-08-22 16:00
+	- How many updates 	: 5
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-pyasn1
+	- Install date 	: 2019-07-18 16:24
+	- Last update date 	: 2019-09-02 12:42
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: gcc-libs
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-07-01 15:39
+	- How many updates 	: 3
+	- Removal date 	: NOT DELETED
+- Package Name 	: noto-fonts
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: 2019-07-15 11:04
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: spice
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-07-22 15:35
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: linux
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-09-13 10:56
+	- How many updates 	: 27
+	- Removal date 	: NOT DELETED
+- Package Name 	: s-nail
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-09-02 12:42
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: cracklib
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-04-22 11:33
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: libasyncns
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: keyutils
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-08-05 10:53
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: libtheora
+	- Install date 	: 2019-05-23 11:47
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libcups
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-09-02 12:42
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-requests-oauthlib
+	- Install date 	: 2019-07-08 14:31
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-keyring
+	- Install date 	: 2019-07-08 14:30
+	- Last update date 	: 2019-08-05 10:53
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: celt0.5.1
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: jsoncpp
+	- Install date 	: 2019-07-18 11:06
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:22
+- Package Name 	: systemd-libs
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-09-09 16:43
+	- How many updates 	: 14
+	- Removal date 	: NOT DELETED
+- Package Name 	: libxdamage
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: sysfsutils
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libfontenc
+	- Install date 	: 2019-05-23 11:43
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: fakeroot
+	- Install date 	: 2019-03-22 16:08
+	- Last update date 	: 2019-09-13 10:56
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: pcre2
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-05-06 11:04
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: wayland
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: lvm2
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-09-09 16:44
+	- How many updates 	: 6
+	- Removal date 	: NOT DELETED
+- Package Name 	: guile2.0
+	- Install date 	: 2019-08-08 14:43
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-markdown
+	- Install date 	: 2019-07-18 11:10
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:22
+- Package Name 	: hwids
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-09-02 12:42
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: licenses
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-colorama
+	- Install date 	: 2019-05-14 11:23
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: virt-install
+	- Install date 	: 2019-05-17 16:07
+	- Last update date 	: 2019-06-24 16:03
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-sphinxcontrib-qthelp
+	- Install date 	: 2019-07-18 11:06
+	- Last update date 	: 2019-08-22 16:00
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-dateutil
+	- Install date 	: 2019-07-08 14:31
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: pygobject-devel
+	- Install date 	: 2019-05-17 16:07
+	- Last update date 	: 2019-09-10 11:00
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: libxrandr
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: gsettings-desktop-schemas
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-09-13 10:56
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-pip
+	- Install date 	: 2019-05-14 11:23
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-click
+	- Install date 	: 2019-07-18 11:11
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:22
+- Package Name 	: python2-pyparsing
+	- Install date 	: 2019-04-03 11:31
+	- Last update date 	: 2019-07-30 11:42
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-pyroute2
+	- Install date 	: 2019-07-17 16:00
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: jfsutils
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python-ply
+	- Install date 	: 2019-07-08 14:30
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: jemalloc
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: 2019-08-08 16:49
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: gawk
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-09-02 12:41
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: lua
+	- Install date 	: 2019-07-17 16:03
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:21
+- Package Name 	: ninja
+	- Install date 	: 2019-07-18 11:10
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: 2019-07-18 16:22
+- Package Name 	: sed
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libelf
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: python2
+	- Install date 	: 2019-03-28 15:20
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: lz4
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-09-17 12:39
+	- How many updates 	: 3
+	- Removal date 	: NOT DELETED
+- Package Name 	: lzo
+	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: giflib
+	- Install date 	: 2019-05-23 11:43
+	- Last update date 	: 2019-07-22 15:35
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: tcpdump
+	- Install date 	: 2019-07-24 16:24
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: libedit
+	- Install date 	: 2019-03-22 15:33
+	- Last update date 	: 2019-05-17 16:04
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
+- Package Name 	: man-pages
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-08-12 14:06
+	- How many updates 	: 2
+	- Removal date 	: NOT DELETED
