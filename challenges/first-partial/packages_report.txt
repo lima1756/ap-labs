@@ -2,7 +2,7 @@ Pacman Packages Report
 ----------------------
 - Installed packages 	: 573
 - Removed packages   	: 60
-- Upgraded packages  	: 263
+- Upgraded packages  	: 262
 - Current installed  	: 513
 
 List of packages
@@ -98,10 +98,10 @@ List of packages
 	- How many updates 	: 0
 	- Removal date 	: NOT DELETED
 - Package Name 	: python-paramiko
-	- Install date 	: 2019-07-18 16:24
+	- Install date 	: 2019-07-08 14:30, 2019-07-18 16:24
 	- Last update date 	: 2019-07-30 11:42
 	- How many updates 	: 1
-	- Removal date 	: NOT DELETED
+	- Removal date 	: 2019-07-18 16:22
 - Package Name 	: python2-setuptools
 	- Install date 	: 2019-04-03 11:31
 	- Last update date 	: 2019-08-22 16:00
@@ -376,6 +376,11 @@ List of packages
 	- Install date 	: 2019-05-17 16:04
 	- Last update date 	: NOT UPDATED
 	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: shadow
+	- Install date 	: 2019-03-22 21:24
+	- Last update date 	: 2019-08-08 16:49
+	- How many updates 	: 3
 	- Removal date 	: NOT DELETED
 - Package Name 	: bash-completion
 	- Install date 	: 2019-07-17 16:03
@@ -857,6 +862,11 @@ List of packages
 	- Last update date 	: NOT UPDATED
 	- How many updates 	: 0
 	- Removal date 	: NOT DELETED
+- Package Name 	: python-distlib
+	- Install date 	: 2019-05-14 11:23
+	- Last update date 	: 2019-05-20 12:08
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
 - Package Name 	: procps-ng
 	- Install date 	: 2019-03-22 21:24
 	- Last update date 	: NOT UPDATED
@@ -928,10 +938,10 @@ List of packages
 	- How many updates 	: 3
 	- Removal date 	: NOT DELETED
 - Package Name 	: glide
-	- Install date 	: 2019-08-01 15:32
-	- Last update date 	: NOT UPDATED
-	- How many updates 	: 0
-	- Removal date 	: NOT DELETED
+	- Install date 	: 2019-04-01 16:40, 2019-08-01 15:32
+	- Last update date 	: 2019-07-15 11:04
+	- How many updates 	: 2
+	- Removal date 	: 2019-07-18 16:22
 - Package Name 	: libnsl
 	- Install date 	: 2019-03-28 15:19
 	- Last update date 	: NOT UPDATED
@@ -1053,10 +1063,10 @@ List of packages
 	- How many updates 	: 3
 	- Removal date 	: NOT DELETED
 - Package Name 	: libsodium
-	- Install date 	: 2019-07-18 16:24
+	- Install date 	: 2019-07-08 14:30, 2019-07-18 16:24
 	- Last update date 	: NOT UPDATED
 	- How many updates 	: 0
-	- Removal date 	: NOT DELETED
+	- Removal date 	: 2019-07-18 16:22
 - Package Name 	: python-docutils
 	- Install date 	: 2019-07-18 11:06
 	- Last update date 	: NOT UPDATED
@@ -1208,10 +1218,10 @@ List of packages
 	- How many updates 	: 0
 	- Removal date 	: NOT DELETED
 - Package Name 	: python-bcrypt
-	- Install date 	: 2019-07-18 16:24
+	- Install date 	: 2019-07-08 14:30, 2019-07-18 16:24
 	- Last update date 	: NOT UPDATED
 	- How many updates 	: 0
-	- Removal date 	: NOT DELETED
+	- Removal date 	: 2019-07-18 16:22
 - Package Name 	: libevent
 	- Install date 	: 2019-03-22 15:33
 	- Last update date 	: 2019-09-02 12:42
@@ -1278,10 +1288,10 @@ List of packages
 	- How many updates 	: 0
 	- Removal date 	: NOT DELETED
 - Package Name 	: python-pynacl
-	- Install date 	: 2019-07-18 16:24
+	- Install date 	: 2019-07-08 14:30, 2019-07-18 16:24
 	- Last update date 	: NOT UPDATED
 	- How many updates 	: 0
-	- Removal date 	: NOT DELETED
+	- Removal date 	: 2019-07-18 16:22
 - Package Name 	: opus
 	- Install date 	: 2019-05-17 16:04
 	- Last update date 	: NOT UPDATED
@@ -2237,6 +2247,11 @@ List of packages
 	- Last update date 	: 2019-09-17 12:39
 	- How many updates 	: 3
 	- Removal date 	: NOT DELETED
+- Package Name 	: fuse2
+	- Install date 	: 2019-03-29 15:12
+	- Last update date 	: 2019-09-17 12:39
+	- How many updates 	: 1
+	- Removal date 	: NOT DELETED
 - Package Name 	: libunistring
 	- Install date 	: 2019-03-22 21:24
 	- Last update date 	: NOT UPDATED
@@ -2498,10 +2513,10 @@ List of packages
 	- How many updates 	: 0
 	- Removal date 	: NOT DELETED
 - Package Name 	: python-yaml
-	- Install date 	: 2019-07-18 16:24
+	- Install date 	: 2019-07-08 14:30, 2019-07-18 16:24
 	- Last update date 	: 2019-08-22 16:00
-	- How many updates 	: 1
-	- Removal date 	: NOT DELETED
+	- How many updates 	: 2
+	- Removal date 	: 2019-07-18 16:22
 - Package Name 	: ethtool
 	- Install date 	: 2019-07-15 17:17
 	- Last update date 	: NOT UPDATED
@@ -2553,10 +2568,10 @@ List of packages
 	- How many updates 	: 5
 	- Removal date 	: NOT DELETED
 - Package Name 	: python-pyasn1
-	- Install date 	: 2019-07-18 16:24
+	- Install date 	: 2019-07-08 14:30, 2019-07-18 16:24
 	- Last update date 	: 2019-09-02 12:42
 	- How many updates 	: 2
-	- Removal date 	: NOT DELETED
+	- Removal date 	: 2019-07-18 16:22
 - Package Name 	: gcc-libs
 	- Install date 	: 2019-03-22 21:24
 	- Last update date 	: 2019-07-01 15:39
@@ -2659,6 +2674,11 @@ List of packages
 	- Removal date 	: NOT DELETED
 - Package Name 	: wayland
 	- Install date 	: 2019-05-17 16:04
+	- Last update date 	: NOT UPDATED
+	- How many updates 	: 0
+	- Removal date 	: NOT DELETED
+- Package Name 	: inetutils
+	- Install date 	: 2019-03-22 21:24
 	- Last update date 	: NOT UPDATED
 	- How many updates 	: 0
 	- Removal date 	: NOT DELETED

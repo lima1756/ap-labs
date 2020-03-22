@@ -89,11 +89,10 @@ int readLog(char *logFile){
                     printf("Error while reading\n");
                     return -1;
                 }
-                if(addPackage(name, date)==NULL){
+                if(addPackage(name, date, &installed)==NULL){
                     printf("Error Out of memory\n");
                     return -1;
                 }
-                installed++;
                 break;
             case 'r':
                 action = substr(line, 26, 33);
@@ -108,11 +107,10 @@ int readLog(char *logFile){
                     printf("Error while reading\n");
                     return -1;
                 }
-                if(removePackage(name, date)==NULL){
+                if(removePackage(name, date, &removed)==NULL){
                     printf("Error package removed without being installed\n");
                     return -1;
                 }
-                removed++;
                 break;
             case 'u':
                 action = substr(line, 26, 34);

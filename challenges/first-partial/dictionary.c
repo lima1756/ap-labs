@@ -50,19 +50,28 @@ package *addElement(package *pkg)
     return element;
 }
 
-package *addPackage(char *name, char *installedDate){
+package *addPackage(char *name, char *installedDate, int *counter){
     package *pkg = getPackage(name);
     if(pkg == NULL){
         pkg = malloc(sizeof(package));
         if(pkg == NULL)
             return NULL;
+        pkg->installed = 1;
+        pkg->name = name;
+        pkg->installedDate = installedDate;
+        pkg->updates = 0;
+        pkg->removalDate = "NOT DELETED";
+        pkg->updatedDate = "NOT UPDATED";
     }
-    pkg->installed = 1;
-    pkg->name = name;
-    pkg->installedDate = installedDate;
-    pkg->updates = 0;
-    pkg->removalDate = "NOT DELETED";
-    pkg->updatedDate = "NOT UPDATED";
+    else {
+        char *tmp = malloc(strlen(pkg->installedDate)+strlen(installedDate)+3);
+        strcpy(tmp, pkg->installedDate);
+        free(pkg->installedDate);
+        strcat(tmp, ", ");
+        strcat(tmp, installedDate);
+        pkg->installedDate = tmp;
+    }
+    (*counter)++;
     return addElement(pkg);
 }
 
@@ -78,12 +87,13 @@ package *updatePackate(char *name, char *updateDate, int *counter){
     return pkg;
 }
 
-package *removePackage(char *name, char *removeDate){
+package *removePackage(char *name, char *removeDate, int *counter){
     package *pkg = getPackage(name);
     if(pkg == NULL)
         return NULL;
     pkg->removalDate = removeDate;
     pkg->installed == 0;
+    (*counter)++;
     return pkg;
 }
 
@@ -124,14 +134,17 @@ void printDictionary(){
     package *element;
     printf("List of packages\n----------------\n");
     for(int i = 0; i < DICTIONARY_SIZE; i++){
-        if((element=dictionary[i])!=NULL){
-            int size = 0;
-            char *str = printPackage(element, &size);
-            if(str == NULL){
-                printf("Error while writing output\n");
-                return;
+        if(dictionary[i]!=NULL){
+            for (element = dictionary[i]; element != NULL; element = element->next){
+                int size = 0;
+                char *str = printPackage(element, &size);
+                if(str == NULL){
+                    printf("Error while writing output\n");
+                    return;
+                }
+                printf(str);
             }
-            printf(str);
+            
         }
     }
 }
@@ -145,17 +158,19 @@ void writeDictionary(int fd){
         return;
     }
     for(int i = 0; i < DICTIONARY_SIZE; i++){
-        if((element=dictionary[i])!=NULL){
-            int size = 0;
-            char *str = printPackage(element, &size);
-            if(str == NULL){
-                printf("Error while writing output\n");
-                return;
-            }
-            check = write(fd, str, strlen(str));
-            if(check<0){
-                printf("Error while writing output\n");
-                return;
+        if(dictionary[i]!=NULL){
+            for (element = dictionary[i]; element != NULL; element = element->next){
+                int size = 0;
+                char *str = printPackage(element, &size);
+                if(str == NULL){
+                    printf("Error while writing output\n");
+                    return;
+                }
+                check = write(fd, str, strlen(str));
+                if(check<0){
+                    printf("Error while writing output\n");
+                    return;
+                }
             }
         }
     }
