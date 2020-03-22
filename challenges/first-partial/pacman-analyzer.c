@@ -19,9 +19,6 @@ char* nextLine(int fd);
 int readLog(char *logFile);
 int writeReport(char *report);
 
-int installed = 0;
-int removed = 0;
-int updated = 0;
 
 int main(int argc, char **argv) {
 
@@ -89,7 +86,7 @@ int readLog(char *logFile){
                     printf("Error while reading\n");
                     return -1;
                 }
-                if(addPackage(name, date, &installed)==NULL){
+                if(addPackage(name, date)==NULL){
                     printf("Error Out of memory\n");
                     return -1;
                 }
@@ -107,7 +104,7 @@ int readLog(char *logFile){
                     printf("Error while reading\n");
                     return -1;
                 }
-                if(removePackage(name, date, &removed)==NULL){
+                if(removePackage(name, date)==NULL){
                     printf("Error package removed without being installed\n");
                     return -1;
                 }
@@ -125,7 +122,7 @@ int readLog(char *logFile){
                     printf("Error while reading\n");
                     return -1;
                 }
-                if(updatePackate(name, date, &updated)==NULL){
+                if(updatePackate(name, date)==NULL){
                     printf("Error package upgraded without being installed\n");
                     return -1;
                 }
@@ -155,28 +152,6 @@ int writeReport(char *report){
         printf("Error while opening the report file\n");
         return -1;
     }
-
-    write(report_fd, "Pacman Packages Report\n----------------------\n", strlen("Pacman Packages Report\n----------------------\n"));
-
-
-    int size = snprintf(NULL, 0, 
-        "- Installed packages \t: %d\n"
-        "- Removed packages   \t: %d\n"
-        "- Upgraded packages  \t: %d\n"
-        "- Current installed  \t: %d\n\n", 
-        installed, removed, updated, installed-removed);
-    char *buf = (char *)malloc(size + 1);
-    if(buf==NULL){
-        printf("Error while writing, out of memory");
-        return -1 ;
-    }
-    snprintf(buf, size+1, 
-        "- Installed packages \t: %d\n"
-        "- Removed packages   \t: %d\n"
-        "- Upgraded packages  \t: %d\n"
-        "- Current installed  \t: %d\n\n", 
-        installed, removed, updated, installed-removed);
-    write(report_fd, buf, size);
 
     writeDictionary(report_fd);
 

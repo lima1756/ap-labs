@@ -50,50 +50,43 @@ package *addElement(package *pkg)
     return element;
 }
 
-package *addPackage(char *name, char *installedDate, int *counter){
+package *addPackage(char *name, char *installedDate){
     package *pkg = getPackage(name);
     if(pkg == NULL){
+        free(pkg);
         pkg = malloc(sizeof(package));
         if(pkg == NULL)
             return NULL;
-        pkg->installed = 1;
-        pkg->name = name;
-        pkg->installedDate = installedDate;
-        pkg->updates = 0;
-        pkg->removalDate = "NOT DELETED";
-        pkg->updatedDate = "NOT UPDATED";
     }
-    else {
-        char *tmp = malloc(strlen(pkg->installedDate)+strlen(installedDate)+3);
-        strcpy(tmp, pkg->installedDate);
-        free(pkg->installedDate);
-        strcat(tmp, ", ");
-        strcat(tmp, installedDate);
-        pkg->installedDate = tmp;
-    }
-    (*counter)++;
+    pkg->installed = 1;
+    pkg->name = name;
+    pkg->installedDate = installedDate;
+    pkg->updates = 0;
+    pkg->removalDate = malloc(sizeof("NOT DELETED"));
+    strcpy(pkg->removalDate,"NOT DELETED");
+    pkg->updatedDate = malloc(sizeof("NOT UPDATED"));
+    strcpy(pkg->updatedDate, "NOT UPDATED");
+
     return addElement(pkg);
 }
 
-package *updatePackate(char *name, char *updateDate, int *counter){
+package *updatePackate(char *name, char *updateDate){
     package *pkg = getPackage(name);
     if(pkg == NULL)
         return NULL;
-    if(strcmp(pkg->updatedDate, "NOT UPDATED")==0){
-        (*counter)++;
-    }
+    free(pkg->updatedDate);
     pkg->updatedDate = updateDate;
     pkg->updates++;
     return pkg;
 }
 
-package *removePackage(char *name, char *removeDate, int *counter){
+package *removePackage(char *name, char *removeDate){
     package *pkg = getPackage(name);
     if(pkg == NULL)
         return NULL;
+    free(pkg->removalDate);
     pkg->removalDate = removeDate;
-    pkg->installed == 0;
-    (*counter)++;
+    pkg->installed = 0;
     return pkg;
 }
 
@@ -152,25 +145,62 @@ void printDictionary(){
 
 void writeDictionary(int fd){
     package *element;
+    write(fd, "Pacman Packages Report\n----------------------\n", strlen("Pacman Packages Report\n----------------------\n"));
+
+    int installed = 0;
+    int removed = 0;
+    int updated = 0;
+    for(int i = 0; i < DICTIONARY_SIZE; i++){
+        for (element = dictionary[i]; element != NULL; element = element->next){
+            if(element->installed==0){
+                installed++;
+                removed++;
+            }
+            else{
+                installed++;
+            }
+            if(element->updates>0){
+                updated++;
+            }
+        }
+    }
+
+    int size = snprintf(NULL, 0, 
+        "- Installed packages \t: %d\n"
+        "- Removed packages   \t: %d\n"
+        "- Upgraded packages  \t: %d\n"
+        "- Current installed  \t: %d\n\n", 
+        installed, removed, updated, installed-removed);
+    char *buf = (char *)malloc(size + 1);
+    if(buf==NULL){
+        printf("Error while writing, out of memory");
+        return -1 ;
+    }
+    snprintf(buf, size+1, 
+        "- Installed packages \t: %d\n"
+        "- Removed packages   \t: %d\n"
+        "- Upgraded packages  \t: %d\n"
+        "- Current installed  \t: %d\n\n", 
+        installed, removed, updated, installed-removed);
+    write(fd, buf, size);
+
     int check = write(fd, "List of packages\n----------------\n", strlen("List of packages\n----------------\n"));
     if(check<0){
         printf("Error while writing output\n");
         return;
     }
     for(int i = 0; i < DICTIONARY_SIZE; i++){
-        if(dictionary[i]!=NULL){
-            for (element = dictionary[i]; element != NULL; element = element->next){
-                int size = 0;
-                char *str = printPackage(element, &size);
-                if(str == NULL){
-                    printf("Error while writing output\n");
-                    return;
-                }
-                check = write(fd, str, strlen(str));
-                if(check<0){
-                    printf("Error while writing output\n");
-                    return;
-                }
+        for (element = dictionary[i]; element != NULL; element = element->next){
+            int size = 0;
+            char *str = printPackage(element, &size);
+            if(str == NULL){
+                printf("Error while writing output\n");
+                return;
+            }
+            check = write(fd, str, strlen(str));
+            if(check<0){
+                printf("Error while writing output\n");
+                return;
             }
         }
     }
