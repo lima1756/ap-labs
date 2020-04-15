@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdarg.h>
+#include <signal.h>
 
 #define INFO_COLOR 37
 #define WARNING_COLOR 33
@@ -15,6 +16,7 @@ void setColor(int font, int back) {
 
 void resetColor() {
     setColor(DEFAULT_FONT_COLOR, DEFAULT_BACK_COLOR);
+    fflush(stdout);
 }
 
 void print(const char *format, va_list args) {
@@ -55,5 +57,6 @@ int panicf(const char *format, ...) {
     print(format, args);
     va_end(args);
     resetColor();
+    raise(SIGABRT);
 }
 
