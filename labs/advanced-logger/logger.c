@@ -2,6 +2,7 @@
 #include <stdarg.h>
 #include <syslog.h>
 #include <string.h>
+#include <signal.h>
 #include "logger.h"
 
 #define INFO_COLOR 37

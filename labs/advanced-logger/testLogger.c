@@ -19,6 +19,7 @@ int main(){
     infof("INFO Message %d", 1);
     warnf("WARN Message %d", 2);
     errorf("ERROR Message %d", 2);
+    panicf("PANIC %d", 5);
 
     return 0;
 }
