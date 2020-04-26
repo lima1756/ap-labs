@@ -12,17 +12,20 @@ type clock struct {
 	connection net.Conn
 }
 
+
 func (c clock) handleConn() {
+	for {
+		data := make([]byte, 11)
+		_, err := c.connection.Read(data)
+		if err != nil {
+			c.connection.Close()
+			fmt.Printf("%s", err)
+			return
 
-	data := make([]byte, 11)
-	_, err := c.connection.Read(data)
-	if err != nil {
-		fmt.Printf("%s", err)
-
-	} else {
-		fmt.Printf("%s: %s", c.place, data)
+		} else {
+			fmt.Printf("%s: %s", c.place, data)
+		}
 	}
-	c.connection.Close()
 }
 
 func main() {
@@ -37,11 +40,15 @@ func main() {
 			fmt.Printf("Error\n")
 			return
 		}
-		clk := clock{
+		
+		go clock{
 			place:      data[0],
 			connection: conn,
-		}
-		clk.handleConn()
+		}.handleConn()
 	}
-
+	// Blocking main thread with infinite loop
+	for {}
 }
+/*
+go run clockWall.go NewYork=localhost:8010 Tokyo=localhost:8020 London=localhost:8030
+*/
