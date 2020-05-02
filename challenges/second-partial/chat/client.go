@@ -42,12 +42,11 @@ func main() {
 			fmt.Print("\n" + *user + " > ")
 		}
 		io.Copy(os.Stdout, conn) // NOTE: ignoring errors
-		log.Println("done")
-		done <- struct{}{} // signal the main goroutine
+		done <- struct{}{}       // signal the main goroutine
 	}()
 	mustCopy(conn, os.Stdin)
 	conn.Close()
-	<-done // wait for background goroutine to finish
+	<-done
 }
 
 //!-
@@ -62,7 +61,8 @@ func mustCopy(dst io.Writer, src io.Reader) {
 		}
 		_, e := io.WriteString(dst, output.Text()+"\n")
 		if e != nil {
-			log.Fatal(e)
+			fmt.Printf("Connection closed\n")
+			return
 		}
 		fmt.Print(*user + " > ")
 	}

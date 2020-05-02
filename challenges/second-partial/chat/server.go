@@ -23,6 +23,7 @@ type User struct {
 	admin   bool
 	conn    net.Conn
 	channel client
+	kicked  bool
 }
 
 type message struct {
@@ -31,87 +32,66 @@ type message struct {
 	msg  string
 }
 
-//!+broadcaster
 type client chan<- string // an outgoing message channel
 
 var (
 	admin      = false
 	entering   = make(chan *User)
 	leaving    = make(chan *User)
-	kicked     = make(chan *User)
-	b_messages = make(chan string)  // broadcast messages
-	c_messages = make(chan message) // cast message (uni or multi)
 	all_users  = make(chan *User)
+	broadMsg   = make(chan string)  // broadcast messages
+	allMsg     = make(chan message) // cast message (uni or multi)
+	privateMsg = make(chan message)
+	kicking    = make(chan message)
 	info_user  = make(chan message)
+	clients    = make(map[string]*User) // all connected clients
 )
 
 func messageManager() {
-	clients := make(map[string]*User) // all connected clients
-	var users []*User
 	for {
 		select {
-		case msg := <-b_messages:
-			// Broadcast incoming message to all
-			// clients' outgoing message channels.
+		case msg := <-privateMsg:
+			go sendPrivateMessage(msg)
+		case msg := <-allMsg:
+			go sendToAllMessage(msg.from, msg.msg, msg.from)
+			break
+		case msg := <-broadMsg:
 			for cli := range clients {
-				(*clients[cli]).channel <- "irc-server > " + msg
+				go sendServerMessage(cli, msg)
 			}
-		case msg := <-c_messages:
-			if msg.to == "" {
-				for cli := range clients {
-					if cli != msg.from {
-						(*clients[cli]).channel <- msg.from + " > " + msg.msg
-					}
-				}
-				break
-			}
-			elem, ok := clients[msg.to]
-			if !ok {
-				(*clients[msg.from]).channel <- "irc-server > User [" + msg.to + "] doesn't exist in the channel."
-				break
-			}
-			(*elem).channel <- "" + msg.from + " > " + msg.msg
 		case user := <-all_users:
-			var s string
+			var users string
 			for cli := range clients {
-				s += cli + ", "
+				users += cli + ", "
 			}
-			(*user).channel <- "irc-server > " + s
+			user.channel <- "irc-server > " + users
 		case msg := <-info_user:
-			elem, ok := clients[msg.to]
-			if !ok {
+			if clients[msg.to] == nil {
 				(*clients[msg.from]).channel <- "irc-server > User [" + msg.to + "] doesn't exist in the channel."
 				break
 			}
-			(*clients[msg.from]).channel <- "irc-server > " + "username: " + msg.to + ", IP: " + (*elem).conn.RemoteAddr().String()
+			(*clients[msg.from]).channel <- "irc-server > " + "username: " + msg.to + ", IP: " + clients[msg.to].conn.RemoteAddr().String()
+		case msg := <-kicking:
+			if clients[msg.to] == nil {
+				(*clients[msg.from]).channel <- "irc-server > User [" + msg.to + "] doesn't exist in the channel."
+				break
+			}
+			sendServerMessage(msg.to, "You can't send new messages")
+			sendServerMessage(msg.to, "You were kicked from the server.")
+
+			sendToAllMessage("irc-server", "["+msg.to+"] was kicked from the server.", msg.to)
+			(*clients[msg.to]).kicked = true
+			removeUser(clients[msg.to])
+			fmt.Printf("irc-server > [%s] was kicked\n", msg.to)
 		case cli := <-entering:
 			fmt.Printf("irc-server > New connected user [%s]\n", cli.name)
-			users = append(users, cli)
-			clients[(*cli).name] = cli
-
+			clients[cli.name] = cli
 		case cli := <-leaving:
-			fmt.Printf("irc-server > [%s] left\n", cli.name)
-			var i int
-			for i = 0; users[i] != cli; i++ {
-			}
-			users = append(users[:i], users[i+1:]...)
-
-			if cli.admin && len(users) > 0 {
-				(*users[0]).admin = true
-				(*users[0]).channel <- "You're the new IRC Server ADMIN"
-				fmt.Printf("irc-server > [%s] was promoted as the channel ADMIN\n", (*users[0]).name)
-			} else if cli.admin {
-				admin = false
-			}
-			delete(clients, (*cli).name)
-			close(cli.channel)
+			removeUser(cli)
 		}
 	}
 }
 
-//!-broadcaster
-
-//!+handleConn
 func handleConn(conn net.Conn) {
 	ch := make(chan string) // outgoing client messages
 	go clientWriter(conn, ch)
@@ -126,10 +106,11 @@ func handleConn(conn net.Conn) {
 		admin:   !admin,
 		conn:    conn,
 		channel: ch,
+		kicked:  false,
 	}
 	who.channel <- "irc-server > Welcome to the Simple IRC Server"
 	who.channel <- "irc-server > Your user [" + who.name + "] is successfully logged"
-	c_messages <- message{from: "irc-server", msg: "New connected user [" + who.name + "]"}
+	allMsg <- message{from: "irc-server", msg: "New connected user [" + who.name + "]"}
 	entering <- &who
 
 	if !admin {
@@ -147,32 +128,49 @@ func handleConn(conn net.Conn) {
 			case "/users":
 				all_users <- &who
 			case "/msg":
-				// TODO: Verify it exists data 1
+				if len(data) != 2 {
+					sendServerMessage(who.name, "the format to send a private message is /msg [user] [message]")
+					break
+				}
 				data2 := strings.SplitN(data[1], " ", 2)
-				// TODO: Verify it exists data2 1
-				c_messages <- message{from: who.name + " [Private]", to: data2[0], msg: data2[1]}
+				if len(data2) != 2 {
+					sendServerMessage(who.name, "the format to send a private message is /msg [user] [message]")
+					break
+				}
+				privateMsg <- message{from: who.name, to: data2[0], msg: data2[1]}
 			case "/time":
 				t := time.Now()
 				who.channel <- "irc-server > Local Time: " + t.Location().String() + t.Format(" 15:04")
 			case "/user":
-				// TODO: Verify there is data1
+				if len(data) != 2 {
+					sendServerMessage(who.name, "the format to send a private message is /user [user]")
+					break
+				}
 				info_user <- message{from: who.name, to: data[1]}
 			case "/kick":
+				if len(data) != 2 {
+					sendServerMessage(who.name, "the format to send a private message is /kick [user]")
+					break
+				}
 				if !who.admin {
 					who.channel <- "irc-server > Only admin can kick someone."
 					break
 				}
-				// TODO: falta hacer el kick
+				kicking <- message{from: who.name, to: data[1]}
+			default:
+				sendServerMessage(who.name, "Not recongnized command")
 			}
 		} else {
-			c_messages <- message{from: who.name, msg: input.Text()}
+			allMsg <- message{from: who.name, msg: input.Text()}
 		}
 	}
-	// NOTE: ignoring potential errors from input.Err()
 
-	leaving <- &who
-	b_messages <- "[" + who.name + "] left"
-	conn.Close()
+	if !who.kicked {
+		leaving <- &who
+		broadMsg <- "[" + who.name + "] left"
+		fmt.Printf("irc-server > [%s] left\n", who.name)
+		conn.Close()
+	}
 }
 
 func clientWriter(conn net.Conn, ch <-chan string) {
@@ -181,9 +179,42 @@ func clientWriter(conn net.Conn, ch <-chan string) {
 	}
 }
 
-//!-handleConn
+func removeUser(user *User) {
+	delete(clients, (*user).name)
+	close((*user).channel)
+	(*user).conn.Close()
+	if user.admin && len(clients) > 0 {
+		for cli := range clients {
+			(*clients[cli]).admin = true
+			(*clients[cli]).channel <- "You're the new IRC Server ADMIN"
+			fmt.Printf("irc-server > [%s] was promoted as the channel ADMIN\n", (*clients[cli]).name)
+			break
+		}
+	} else if (*user).admin {
+		admin = false
+	}
+}
 
-//!+main
+func sendPrivateMessage(msg message) {
+	if clients[msg.to] == nil {
+		(*clients[msg.from]).channel <- "irc-server > User [" + msg.to + "] doesn't exist in the channel."
+		return
+	}
+	(*clients[msg.to]).channel <- "" + msg.from + " [private] > " + msg.msg
+}
+
+func sendToAllMessage(from string, msg string, notInclude string) {
+	for cli := range clients {
+		if cli != notInclude {
+			(*clients[cli]).channel <- from + " > " + msg
+		}
+	}
+}
+
+func sendServerMessage(to string, msg string) {
+	(*clients[to]).channel <- "irc-server > " + msg
+}
+
 func main() {
 	var host = flag.String("host", "localhost", "host address")
 	var port = flag.Int("port", 8000, "port")
@@ -203,5 +234,3 @@ func main() {
 		go handleConn(conn)
 	}
 }
-
-//!-main
