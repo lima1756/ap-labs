@@ -2,6 +2,7 @@
 #include <stdarg.h>
 #include <syslog.h>
 #include <string.h>
+#include <signal.h>
 #include "logger.h"
 
 #define INFO_COLOR 37
@@ -29,6 +30,7 @@ void setColor(int font, int back) {
 
 void resetColor() {
     setColor(DEFAULT_FONT_COLOR, DEFAULT_BACK_COLOR);
+    fflush(stdout);
 }
 
 void print(const char *format, va_list args) {
@@ -51,7 +53,6 @@ int infof(const char *format, ...){
     print(format, args);
     va_end(args);
     resetColor();
-    return 0;
 }
 
 int warnf(const char *format, ...) {
@@ -62,7 +63,6 @@ int warnf(const char *format, ...) {
     print(format, args);
     va_end(args);
     resetColor();
-    return 0;
 }
 
 int errorf(const char *format, ...) {
@@ -73,7 +73,6 @@ int errorf(const char *format, ...) {
     print(format, args);
     va_end(args);
     resetColor();
-    return 0;
 }
 
 int panicf(const char *format, ...) {
@@ -84,5 +83,5 @@ int panicf(const char *format, ...) {
     print(format, args);
     va_end(args);
     resetColor();
-    return 0;
+    raise(SIGABRT);
 }

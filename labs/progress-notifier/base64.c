@@ -63,7 +63,7 @@ int main(int argc, char** argv)
 
 void handleProgressSignal(int sig)
 {
-    infof("TOTAL: %ld, PROGRESS: %ld,  %%: %ld%%\n", progress, total, progress*100/total);
+    infof("PROGRESS: %ld, TOTAL: %ld,  %%: %ld%%\n", progress, total, progress*100/total);
     //infof("The current progress is: %ld%%\n", progress*100/total);
 
 }
