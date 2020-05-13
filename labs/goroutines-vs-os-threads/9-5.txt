@@ -1,0 +1,3 @@
+Second 0: 5376831 messages sent
+Total messages sent: 5376831
+Avg meessage/second: 5376831

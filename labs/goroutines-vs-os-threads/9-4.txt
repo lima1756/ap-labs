@@ -1,0 +1,17 @@
+Before the pipeline the memory usage was:
+	Alloc = 0 MiB
+	Mallocs = 192
+	Frees = 3
+	Current Mallocs = 189
+	HeapAlloc = 0 MiB
+	Sys = 68 MiB
+	InUse = 0
+After the pipeline the memory usage was:
+	Alloc = 18 MiB
+	Mallocs = 76126
+	Frees = 5
+	Current Mallocs = 76121
+	HeapAlloc = 18 MiB
+	Sys = 136 MiB
+	InUse = 19
+The total time for data to traverse through all the pipeline of 500000 elements was: 235.128053ms

@@ -13,6 +13,30 @@ General Requirements and Considerations
 - Don't forget to handle errors properly.
 - Coding best practices implementation will be also considered.
 
+Run
+---
+
+### Exercise 9.4
+
+```
+go run 9-4.go
+```
+Exercise 9.4 also has an optional flag parameter: --pipes that defines the number of pipes for the pipeline. Ex:
+```
+go run 9-4.go --pipes 500000
+```
+The output is **9-4.txt**
+### Exercise 9.5
+
+```
+go run 9-5.go
+```
+Exercise 9.5 also has an optional flag parameter: --time that defines the number of seconds is going to run the communication between threads. Ex:
+```
+go run 9-5.go --time 10
+```
+The output is **9-5.txt**
+
 
 How to submit your work
 =======================
